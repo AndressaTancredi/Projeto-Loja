@@ -1,24 +1,9 @@
 # README
+Criei uma loja com uma página HTML estática, e depois decidi utilizar o banco de dados para armazenar os produtos que tínham, assim como exibir esses itens na página raiz. A princípio, utilizei o Rails console para cadastrar cada um dos objetos, mas evoluí a experiência do usuário em no site criando uma interface visual que permite o cadastramento de produtos.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Em seguida, direcionei os produtos de menor preço para uma tela específica de descontos. Também criei um botão de remoção, possibilitando que algum item específico fosse excluído da loja. Criei ainda um campo de busca e uma forma de alterar os dados do produto diretamente no site.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+#Stack
+ - Ruby on Rails
+ - Twitter-bootstrap-rails
+ - Sqlite3
